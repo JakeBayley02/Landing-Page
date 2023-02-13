@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.Hero,
+.footer{
+    background-color: #1f2937;
+}
+
+.Title{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.Header_Description,
+.Header_link,
+.Copyright{
+    font-size: 18px;
+    color: #E5e7eb;
+}
+
+.Header_logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.button_1,
+.button_2{
+    background-color: #3882f6;
+    color: white;
+}
+
+.Title_2{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.Quote{
+    background-color: #E5e7eb;
+
+}
+
+.quotation{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+}
+
+.author{
+    font-weight: bold;
+}
