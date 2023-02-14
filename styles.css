@@ -1,16 +1,19 @@
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 .Hero,
-.footer{
+.footer,
+.Header{
     background-color: #1f2937;
 }
 
 .Title{
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 900;
     color: #f9faf8;
 }
 
@@ -24,22 +27,99 @@ body{
 .Header_logo{
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
-.button_1,
-.button_2{
+.Header{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 16px;
+    
+}
+
+.Header_logo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.links{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.Hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.Hero_text{
+    text-align: left;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
     background-color: #3882f6;
     color: white;
+    padding: 4px 8px;
+}
+
+a[rel=button_1] { 
+    border-radius: 8px;
+}
+
+.Body_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 444px;
 }
 
 .Title_2{
     font-size: 36px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #1f2937;
+    margin: 0;
+    padding: 20px;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.card{
+    width: 300px;
+    text-align: center;
 }
 
 .Quote{
     background-color: #E5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
 }
 
